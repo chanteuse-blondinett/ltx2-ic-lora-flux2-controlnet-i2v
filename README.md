@@ -59,7 +59,7 @@ Optional (only if your workflow includes these nodes):
 
 ## License note (important)
 The FLUX.2 ControlNet Union checkpoint is released under a **non-commercial** license on Hugging Face.  
-This repo contains workflow + documentation only. Do NOT upload model weights here, and follow upstream license terms.
+This repo contains workflow + documentation only.
 
 ## How to use
 1) Install required custom nodes (see Requirements).
