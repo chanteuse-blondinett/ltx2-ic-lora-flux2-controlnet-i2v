@@ -15453,7 +15453,7 @@
               }
             },
             "widgets_values": [
-              "Internal/ltxv_apps/opensource_release/ic-loras-02-01-distilled/ltx-2-19b-ic-lora-depth-control.safetensors",
+              "Loras/ic-loras-02-01-distilled/ltx-2-19b-ic-lora-depth-control.safetensors",
               1
             ]
           },
