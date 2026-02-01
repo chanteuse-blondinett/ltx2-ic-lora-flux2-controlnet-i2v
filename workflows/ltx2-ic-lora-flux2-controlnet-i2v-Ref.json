@@ -1384,7 +1384,7 @@
         }
       },
       "widgets_values": [
-        "## Model Links\n\n**LTX-2 Model Weights**\n\n- [ltx-2-19b-distilled.safetensors](https://huggingface.co/Lightricks/LTX-2/resolve/main/ltx-2-19b-distilled.safetensors)\n- [ ltx-2-spatial-upscaler-x2-1.0.safetensors ](https://huggingface.co/Lightricks/LTX-2/resolve/main/ltx-2-spatial-upscaler-x2-1.0.safetensors)\n- [ IC LoRA - Canny ](https://huggingface.co/Lightricks/LTX-2-19b-IC-LoRA-Canny-Control/resolve/main/ltx-2-19b-ic-lora-canny-control.safetensors)\n- [ IC LoRA - Depth ](https://huggingface.co/Lightricks/LTX-2-19b-IC-LoRA-Depth-Control/resolve/main/ltx-2-19b-ic-lora-depth-control.safetensors)\n- [ IC LoRA - Pose ](https://huggingface.co/Lightricks/LTX-2-19b-IC-LoRA-Pose-Control/resolve/main/ltx-2-19b-ic-lora-pose-control.safetensors)\n\n\n\n**Text Encoder**\n- [Google Gemma 3](https://huggingface.co/google/gemma-3-12b-it-qat-q4_0-unquantized)\n\nPlease download the entire folder - \n\n- Run: \n 1. cd models/text_encoders\n 2. git clone https://huggingface.co/google/gemma-3-12b-it-qat-q4_0-unquantized\n\n*Full documentation can be found [here](https://docs.ltx.video/open-source-model/integration-tools/comfy-ui#text-encoder)\n\n\n**Model Storage Location**\n\n```\n📂 ComfyUI/\n├── 📂 models/\n│   ├── 📂 text_encoders/\n│   │      ├── gemma-3-12b-it-qat-q4_0-unquantized/model-00001-of-00005.safetensors\n│   ├── 📂 checkpoints/\n│   │      └── ltx-2-19b-distilled.safetensors\n│   ├── 📂 latent_upscale_models/ \n│   │      └── ltx-2-spatial-upscaler-x2-1.0.safetensors\n│   ├── 📂 loras/ \n│           └── ltx-2-19b-ic-lora-canny-control.safetensors\n│           └── ltx-2-19b-ic-lora-depth-control.safetensors\n│           └── ltx-2-19b-ic-lora-pose-control.safetensors\n```\n**Assets**\n- [buildings.mp4 (input video)](https://github.com/Lightricks/ComfyUI-LTXVideo/blob/master/example_workflows/assets/buildings.mp4)\n- [buildings ff (first frame)](https://github.com/Lightricks/ComfyUI-LTXVideo/blob/master/example_workflows/assets/buildings%20ff.png)\n\n## Report Issues\nTo report any issues when running this workflow, [go to GitHub](https://github.com/Lightricks/ComfyUI-LTXVideo/issues)\n"
+        "## Model Links\n\n**LTX-2 Model Weights**\n\n- [ltx-2-19b-distilled.safetensors](https://huggingface.co/Lightricks/LTX-2/resolve/main/ltx-2-19b-distilled.safetensors)\n- [ ltx-2-spatial-upscaler-x2-1.0.safetensors ](https://huggingface.co/Lightricks/LTX-2/resolve/main/ltx-2-spatial-upscaler-x2-1.0.safetensors)\n- [ IC LoRA - Canny ](https://huggingface.co/Lightricks/LTX-2-19b-IC-LoRA-Canny-Control/resolve/main/ltx-2-19b-ic-lora-canny-control.safetensors)\n- [ IC LoRA - Depth ](https://huggingface.co/Lightricks/LTX-2-19b-IC-LoRA-Depth-Control/resolve/main/ltx-2-19b-ic-lora-depth-control.safetensors)\n- [ IC LoRA - Pose ](https://huggingface.co/Lightricks/LTX-2-19b-IC-LoRA-Pose-Control/resolve/main/ltx-2-19b-ic-lora-pose-control.safetensors)\n\n\n\n**Text Encoder**\n- [Google Gemma 3](https://huggingface.co/google/gemma-3-12b-it-qat-q4_0-unquantized)\n\nPlease download the entire folder - \n\n- Run: \n 1. cd models/text_encoders\n 2. git clone https://huggingface.co/google/gemma-3-12b-it-qat-q4_0-unquantized\n\n*Full documentation can be found [here](https://docs.ltx.video/open-source-model/integration-tools/comfy-ui#text-encoder)\n\n\n**Model Storage Location**\n\n```\n📂 ComfyUI/\n├── 📂 models/\n│   ├── 📂 text_encoders/\n│   │      ├── gemma-3-12b-it.safetensors\n│   ├── 📂 checkpoints/\n│   │      └── ltx-2-19b-distilled.safetensors\n│   ├── 📂 latent_upscale_models/ \n│   │      └── ltx-2-spatial-upscaler-x2-1.0.safetensors\n│   ├── 📂 loras/ \n│           └── ltx-2-19b-ic-lora-canny-control.safetensors\n│           └── ltx-2-19b-ic-lora-depth-control.safetensors\n│           └── ltx-2-19b-ic-lora-pose-control.safetensors\n```\n**Assets**\n- [buildings.mp4 (input video)](https://github.com/Lightricks/ComfyUI-LTXVideo/blob/master/example_workflows/assets/buildings.mp4)\n- [buildings ff (first frame)](https://github.com/Lightricks/ComfyUI-LTXVideo/blob/master/example_workflows/assets/buildings%20ff.png)\n\n## Report Issues\nTo report any issues when running this workflow, [go to GitHub](https://github.com/Lightricks/ComfyUI-LTXVideo/issues)\n"
       ],
       "color": "#432",
       "bgcolor": "#653"
@@ -13887,7 +13887,7 @@
               }
             },
             "widgets_values": [
-              "gemma-3-12b-it-qat-q4_0-unquantized/model-00001-of-00005.safetensors",
+              "gemma-3-12b-it.safetensors",
               "ltx-2-19b-distilled.safetensors",
               1024
             ]
@@ -15291,7 +15291,7 @@
               }
             },
             "widgets_values": [
-              "gemma-3-12b-it-qat-q4_0-unquantized/model-00001-of-00005.safetensors",
+              "gemma-3-12b-it.safetensors",
               "ltx-2-19b-distilled.safetensors",
               1024
             ]
@@ -16683,7 +16683,7 @@
               }
             },
             "widgets_values": [
-              "gemma-3-12b-it-qat-q4_0-unquantized/model-00001-of-00005.safetensors",
+              "gemma-3-12b-it.safetensors",
               "ltx-2-19b-distilled.safetensors",
               1024
             ]
